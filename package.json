@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "buffer": "^6.0.3",
-    "lang64k": "^0.1.1"
+    "lang64k": "^0.1.2"
   }
 }
