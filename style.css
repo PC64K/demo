@@ -1,0 +1,42 @@
+* {
+    font-family: sans-serif;
+}
+textarea {
+    font-family: monospace;
+    width: 40vw;
+    height: 90vh;
+}
+#msg {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    #msg {
+        display: block;
+        position: fixed;
+        top: 50vh;
+        left: 50vw;
+        background: lightblue;
+        transform: translate(-50%, -50%);
+    }
+}
+#docs, #emulator, #compiler {
+    position: fixed;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 50vw;
+}
+#docs, #emulator {
+    height: 50vh;
+    right: 0;
+}
+#docs, #compiler {
+    top: 0;
+    padding: 1em;
+}
+#compiler {
+    left: 0;
+    height: 100vh;
+}
+#emulator {
+    bottom: 0;
+}

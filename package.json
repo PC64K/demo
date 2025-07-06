@@ -1,0 +1,33 @@
+{
+  "name": "pc64k-demo",
+  "version": "0.1.0",
+  "description": "PC64K demo page",
+  "keywords": [
+    "pc64k",
+    "demo"
+  ],
+  "homepage": "https://github.com/PC64K/demo#readme",
+  "bugs": {
+    "url": "https://github.com/PC64K/demo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PC64K/demo.git"
+  },
+  "license": "MIT",
+  "author": "Milk_Cool",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.0.2"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "lang64k": "^0.1.1"
+  }
+}
